@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Harmattan&display=swap');
+/* font-family: 'Courgette', cursive;
+font-family: 'Harmattan', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Harmattan', sans-serif; 
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+/************MAIN*************/
+.main_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #d6f8b8;
+    width: 100vw;
+    
+}
+
+
+
+/************HEADER*************/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #8fbbaf;
+}
+
+header h1{
+    font-family: 'Courgette', cursive;
+}
+
+header button {
+    cursor: pointer;
+    width: 50px;
+    margin-left: -9px;
+}
+
+
+/************FOOD&EXERCISE*************/
+
+/*FOOD_INFO*/
+.food_exercise_info {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    min-height: 80vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.food_info {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    min-width: 40vh;
+    background-color: #6b7b8e;
+    border-radius: 10px;
+}
+
+.food_info_text {
+    display: flex;
+    flex-flow: column nowrap;
+    color: #fff;
+    padding: 15px;
+    
+}
+
+.food_info_text ul li p{
+    font-size: 1.1rem;
+}
+
+.food_info p{
+    margin-bottom: 5px;
+}
+
+.food_info ul {
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.food_info img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+/*EXERCISE*/
+.how_long_to_burn {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: #6b7b8e;
+    border-radius: 10px;
+}
+
+.how_long_to_burn h2 {
+    padding: 10px;
+    color: #fff;
+}
+
+.exercise_text {
+    display: block;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.exercise {
+    min-height: 15vh;
+    border-radius: 5px;
+    color: #000;
+    background-color: #8fbbaf;
+}
+
+.exercise_result {
+    margin-top: 11%;
+    padding: 10px;
+    color: #fff;
+}
+
+.exercise_form button {
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 120px;
+}
+
+/*SAVEDFOOD*/
+
+.saved_food {
+    display: flex;
+    
+    justify-content: center;
+    width: 25vw;
+}
+
+.saved_food ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #6b7b8e;
+    color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.saved_food ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid #d6f8b8;
+    cursor: pointer;    
+}
+
+.saved_food img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.saved_food button {
+    cursor: pointer;
+    width: 20px;
+}
+
+.saved_food h2 {
+    border-bottom: 2px solid #d6f8b8;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.saved_food p {
+    font-size: 2rem;
+    
+}
+
+/************FOOTER*************/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #8fbbaf;
+}
+
+footer h2 {
+    font-family: 'Courgette', cursive;
+}
+
+
+
+/************HEADER*************/
