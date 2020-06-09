@@ -3,15 +3,15 @@ export default class Search {
         this.search = search;
     }
 
-    // app_id: a85620e6 app_key: 8c8ce17420367ed56bc28cb84ce66315
+    
 
     async  getInfo() {
         const res = await fetch("https://trackapi.nutritionix.com/v2/natural/nutrients", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "x-app-id": "a85620e6",
-                "x-app-key": "8c8ce17420367ed56bc28cb84ce66315",
+                "x-app-id": "",
+                "x-app-key": "",
                 "x-remote-user-id": 0
             },
             body: JSON.stringify({query: this.search})
